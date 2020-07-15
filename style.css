@@ -1,0 +1,75 @@
+* First External CSS Stylesheet */
+/* Styling for HTML elements */
+
+.container {
+    margin: 4% auto;
+}
+
+.navbar h1 {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.col-md-8 h2,
+.col-md-4 h2,
+.col-md-12 h2,
+h2 {
+    font-size: 3em;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 3em;
+}
+
+.img-thumbnail {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+body {
+    margin: 5px 5px 5px 5px;
+    background-color: #e9ecef;
+}
+
+
+/* ========== Text Styles ========== */
+
+hr {
+    color: #000000
+}
+
+body,
+table
+/* Normal text */
+
+{
+    font-size: 10pt;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+span.rvts1
+/* Heading */
+
+{
+    font-weight: bold;
+    color: #0000ff;
+}
+
+@media (max-width:600px) {
+    .carousel-caption {
+        display: none;
+    }
+    #icon {
+        max-width: 150px;
+    }
+}
