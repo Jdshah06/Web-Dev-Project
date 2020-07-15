@@ -1,0 +1,5 @@
+﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
+123700,66399,2020,California,460,SurveyUSA,"443,583,804",KGTV-TV (California) | KABC-TV (California) | San Diego Union-Tribune,SurveyUSA,325,SurveyUSA,A,537,lv,lv,Online,U.S. President,5/18/20,5/19/20,11/3/20,http://www.surveyusa.com/client/PollReport.aspx?g=4b9bd0e5-3f07-4da9-b86f-370c0255240e,general,6215,Biden,Joseph R. Biden Jr.,DEM,58,,
+123700,66399,2020,California,460,SurveyUSA,"443,583,804",KGTV-TV (California) | KABC-TV (California) | San Diego Union-Tribune,SurveyUSA,325,SurveyUSA,A,537,lv,lv,Online,U.S. President,5/18/20,5/19/20,11/3/20,http://www.surveyusa.com/client/PollReport.aspx?g=4b9bd0e5-3f07-4da9-b86f-370c0255240e,general,6215,Trump,Donald Trump,REP,30,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

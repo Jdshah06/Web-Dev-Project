@@ -1,0 +1,5 @@
+﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
+100690,58918,2020,Alaska,573,Zogby Interactive/JZ Analytics,1165,24/7 Wall St.,Zogby Analytics,395,Zogby Interactive/JZ Analytics,C+,321,lv,lv,Online,U.S. President,7/22/19,8/9/19,11/3/20,https://247wallst.com/special-report/2019/08/16/24-7-wall-st-zogby-analytics-battleground-state-poll-most-alaskan-voters-do-not-support-trump-but-agree-on-certain-issues/4/,general,6211,Biden,Joseph R. Biden Jr.,DEM,40,,
+100690,58918,2020,Alaska,573,Zogby Interactive/JZ Analytics,1165,24/7 Wall St.,Zogby Analytics,395,Zogby Interactive/JZ Analytics,C+,321,lv,lv,Online,U.S. President,7/22/19,8/9/19,11/3/20,https://247wallst.com/special-report/2019/08/16/24-7-wall-st-zogby-analytics-battleground-state-poll-most-alaskan-voters-do-not-support-trump-but-agree-on-certain-issues/4/,general,6211,Trump,Donald Trump,REP,45,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,5 @@
+﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
+124703,66825,2020,Mississippi,1587,Chism Strategies,1119,Millsaps College,Millsaps College/Chism Strategies,470,Chism Strategies,,568,lv,lv,Live Phone,U.S. President,6/2/20,6/4/20,11/3/20,https://projects.fivethirtyeight.com/polls/20200616_MS.pdf,general,6236,Biden,Joseph R. Biden Jr.,DEM,40.6,,
+124703,66825,2020,Mississippi,1587,Chism Strategies,1119,Millsaps College,Millsaps College/Chism Strategies,470,Chism Strategies,,568,lv,lv,Live Phone,U.S. President,6/2/20,6/4/20,11/3/20,https://projects.fivethirtyeight.com/polls/20200616_MS.pdf,general,6236,Trump,Donald Trump,REP,50.4,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

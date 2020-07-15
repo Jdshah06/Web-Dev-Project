@@ -1,0 +1,5 @@
+﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
+115783,63283,2020,West Virginia,1418,WPA Intelligence (WPAi),1072,Club For Growth Action,WPA Intelligence,383,WPA Intelligence (WPAi),B/C,500,lv,lv,Live Phone,U.S. President,1/7/20,1/9/20,11/3/20,https://www.clubforgrowth.org/wp-content/uploads/2020/01/CFG_WV_Impeachment_Poll_Memo_2001122.pdf,general,6260,Biden,Joseph R. Biden Jr.,DEM,31,,
+115783,63283,2020,West Virginia,1418,WPA Intelligence (WPAi),1072,Club For Growth Action,WPA Intelligence,383,WPA Intelligence (WPAi),B/C,500,lv,lv,Live Phone,U.S. President,1/7/20,1/9/20,11/3/20,https://www.clubforgrowth.org/wp-content/uploads/2020/01/CFG_WV_Impeachment_Poll_Memo_2001122.pdf,general,6260,Trump,Donald Trump,REP,66,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

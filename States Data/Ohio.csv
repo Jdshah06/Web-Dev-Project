@@ -1,0 +1,5 @@
+﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
+124885,66889,2020,Ohio,396,Quinnipiac University,,,Quinnipiac University,267,Quinnipiac University,B+,1139,rv,rv,Live Phone,U.S. President,6/18/20,6/22/20,11/3/20,https://poll.qu.edu/ohio/release-detail?ReleaseID=3665,general,6246,Biden,Joseph R. Biden Jr.,DEM,46,,
+124885,66889,2020,Ohio,396,Quinnipiac University,,,Quinnipiac University,267,Quinnipiac University,B+,1139,rv,rv,Live Phone,U.S. President,6/18/20,6/22/20,11/3/20,https://poll.qu.edu/ohio/release-detail?ReleaseID=3665,general,6246,Trump,Donald Trump,REP,45,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

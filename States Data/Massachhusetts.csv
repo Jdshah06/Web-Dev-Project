@@ -1,0 +1,5 @@
+﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
+123160,66203,2020,Massachusetts,1102,Emerson College,43,7News,Emerson College,88,Emerson College,A-,740,rv,rv,IVR/Online,U.S. President,5/5/20,5/6/20,11/3/20,https://emersonpolling.reportablenews.com/pr/massachusetts-2020-kennedy-leading-markey-by-16-points-in-us-senate-race,general,6230,Biden,Joseph R. Biden Jr.,DEM,66.9,,
+123160,66203,2020,Massachusetts,1102,Emerson College,43,7News,Emerson College,88,Emerson College,A-,740,rv,rv,IVR/Online,U.S. President,5/5/20,5/6/20,11/3/20,https://emersonpolling.reportablenews.com/pr/massachusetts-2020-kennedy-leading-markey-by-16-points-in-us-senate-race,general,6230,Trump,Donald Trump,REP,33.1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

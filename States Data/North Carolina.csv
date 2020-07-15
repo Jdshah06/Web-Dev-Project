@@ -1,0 +1,5 @@
+﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
+125032,66959,2020,North Carolina,1365,Change Research,576,CNBC,Change Research,48,Change Research,C-,468,lv,lv,Online,U.S. President,6/26/20,6/28/20,11/3/20,https://www.changeresearch.com/post/states-of-play-battleground-wave-8,general,6238,Biden,Joseph R. Biden Jr.,DEM,51,,
+125032,66959,2020,North Carolina,1365,Change Research,576,CNBC,Change Research,48,Change Research,C-,468,lv,lv,Online,U.S. President,6/26/20,6/28/20,11/3/20,https://www.changeresearch.com/post/states-of-play-battleground-wave-8,general,6238,Trump,Donald Trump,REP,44,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,5 @@
+﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
+124795,66864,2020,Alabama,1244,FM3 Research,,,FM3 Research,91,FM3 Research,B/C,601,lv,lv,Live Phone,U.S. President,5/14/20,5/18/20,11/3/20,https://www.politico.com/f/?id=00000172-e088-dfa8-abfb-e9dba8710000,general,6212,Biden,Joseph R. Biden Jr.,DEM,39,,
+124795,66864,2020,Alabama,1244,FM3 Research,,,FM3 Research,91,FM3 Research,B/C,601,lv,lv,Live Phone,U.S. President,5/14/20,5/18/20,11/3/20,https://www.politico.com/f/?id=00000172-e088-dfa8-abfb-e9dba8710000,general,6212,Trump,Donald Trump,REP,53,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

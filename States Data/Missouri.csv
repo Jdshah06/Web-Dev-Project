@@ -1,0 +1,5 @@
+﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
+125004,66941,2020,Missouri,172,Garin-Hart-Yang Research Group,,,Garin-Hart-Yang Research Group,113,Garin-Hart-Yang Research Group,B/C,800,lv,lv,Online,U.S. President,6/16/20,6/22/20,11/3/20,https://moscout.com/s/Galloway-For-Governor-Recent-Polling-of-the-Presidential-and-Gubernatorial-Races-in-MO.pdf,general,6235,Biden,Joseph R. Biden Jr.,DEM,48,,
+125004,66941,2020,Missouri,172,Garin-Hart-Yang Research Group,,,Garin-Hart-Yang Research Group,113,Garin-Hart-Yang Research Group,B/C,800,lv,lv,Online,U.S. President,6/16/20,6/22/20,11/3/20,https://moscout.com/s/Galloway-For-Governor-Recent-Polling-of-the-Presidential-and-Gubernatorial-Races-in-MO.pdf,general,6235,Trump,Donald Trump,REP,46,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
