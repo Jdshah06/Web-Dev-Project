@@ -1,5 +1,3 @@
-﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
-125078,66973,2020,Colorado,383,Public Policy Polling,681,End Citizens United,Public Policy Polling,263,Public Policy Polling,B,840,v,v,IVR/Text,U.S. President,6/29/20,6/30/20,11/3/20,https://endcitizensunited.org/wp-content/uploads/2020/07/ColoradoResults1.pdf,general,6216,Biden,Joseph R. Biden Jr.,DEM,56,,
-125078,66973,2020,Colorado,383,Public Policy Polling,681,End Citizens United,Public Policy Polling,263,Public Policy Polling,B,840,v,v,IVR/Text,U.S. President,6/29/20,6/30/20,11/3/20,https://endcitizensunited.org/wp-content/uploads/2020/07/ColoradoResults1.pdf,general,6216,Trump,Donald Trump,REP,39,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿state,Abbv,candidate_name,candidate_party,pct
+Colorado,CO,Joseph R. Biden Jr.,DEM,56
+Colorado,CO,Donald Trump,REP,39

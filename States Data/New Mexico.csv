@@ -1,5 +1,3 @@
-﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
-124679,66817,2020,New Mexico,383,Public Policy Polling,599,NM Political Report,Public Policy Polling,263,Public Policy Polling,B,740,v,v,IVR/Text,U.S. President,6/12/20,6/13/20,11/3/20,https://nmpoliticalreport.com/2020/06/16/poll-biden-lujan-lead-in-new-mexico-after-primaries/,general,6243,Biden,Joseph R. Biden Jr.,DEM,53,,
-124679,66817,2020,New Mexico,383,Public Policy Polling,599,NM Political Report,Public Policy Polling,263,Public Policy Polling,B,740,v,v,IVR/Text,U.S. President,6/12/20,6/13/20,11/3/20,https://nmpoliticalreport.com/2020/06/16/poll-biden-lujan-lead-in-new-mexico-after-primaries/,general,6243,Trump,Donald Trump,REP,39,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿state,abbv,candidate_name,candidate_party,pct
+New Mexico,NM,Joseph R. Biden Jr.,DEM,53
+New Mexico,NM,Donald Trump,REP,39

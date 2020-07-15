@@ -1,5 +1,3 @@
-﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
-124745,66846,2020,Kentucky,1447,Civiqs,1157,Data for Progress,Civiqs,471,Civiqs,B/C,898,rv,rv,Online,U.S. President,6/13/20,6/15/20,11/3/20,http://filesforprogress.org/datasets/2020/6/ky/Civiqs_DataforProgress_KY_banner_book_2020_06.pdf,general,6228,Biden,Joseph R. Biden Jr.,DEM,37,,
-124745,66846,2020,Kentucky,1447,Civiqs,1157,Data for Progress,Civiqs,471,Civiqs,B/C,898,rv,rv,Online,U.S. President,6/13/20,6/15/20,11/3/20,http://filesforprogress.org/datasets/2020/6/ky/Civiqs_DataforProgress_KY_banner_book_2020_06.pdf,general,6228,Trump,Donald Trump,REP,57,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿state,abbv,candidate_name,candidate_party,pct
+Kentucky,KY,Joseph R. Biden Jr.,DEM,37
+Kentucky,KY,Donald Trump,REP,57

@@ -1,5 +1,3 @@
-﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
-123437,66310,2020,Virginia,415,Roanoke College,,,Roanoke College,292,Roanoke College,B/C,563,lv,lv,Live Phone,U.S. President,5/3/20,5/16/20,11/3/20,https://www.roanoke.edu/about/news/rc_poll_politics_may_2020,general,6256,Biden,Joseph R. Biden Jr.,DEM,51,,
-123437,66310,2020,Virginia,415,Roanoke College,,,Roanoke College,292,Roanoke College,B/C,563,lv,lv,Live Phone,U.S. President,5/3/20,5/16/20,11/3/20,https://www.roanoke.edu/about/news/rc_poll_politics_may_2020,general,6256,Trump,Donald Trump,REP,39,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿state,abbv,candidate_name,candidate_party,pct
+Virginia,VA,Joseph R. Biden Jr.,DEM,51
+Virginia,VA,Donald Trump,REP,39

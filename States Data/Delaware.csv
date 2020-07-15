@@ -1,5 +1,3 @@
-﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
-116194,63365,2020,Delaware,1232,Gonzales Research & Marketing Strategies Inc.,,,Gonzales Research & Marketing Strategies Inc.,121,Gonzales Research & Marketing Strategies Inc.,B/C,410,lv,lv,Live Phone,U.S. President,1/16/20,1/21/20,11/3/20,https://projects.fivethirtyeight.com/polls/20200128_DE.pdf,general,6219,Biden,Joseph R. Biden Jr.,DEM,55.9,,
-116194,63365,2020,Delaware,1232,Gonzales Research & Marketing Strategies Inc.,,,Gonzales Research & Marketing Strategies Inc.,121,Gonzales Research & Marketing Strategies Inc.,B/C,410,lv,lv,Live Phone,U.S. President,1/16/20,1/21/20,11/3/20,https://projects.fivethirtyeight.com/polls/20200128_DE.pdf,general,6219,Trump,Donald Trump,REP,40.2,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿state,abbv,candidate_name,candidate_party,pct
+Delaware,DE,Joseph R. Biden Jr.,DEM,55.9
+Delaware,DE,Donald Trump,REP,40.2

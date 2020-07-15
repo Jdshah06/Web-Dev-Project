@@ -1,5 +1,3 @@
-﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
-124786,66859,2020,Minnesota,801,Gravis Marketing,,,Gravis Marketing,124,Gravis Marketing,C,600,rv,rv,IVR/Online,U.S. President,6/19/20,6/19/20,11/3/20,https://www.gravismarketing.com/wp-content/uploads/2020/06/Minnesota-June-19-2020.pdf,general,6234,Biden,Joseph R. Biden Jr.,DEM,58,,
-124786,66859,2020,Minnesota,801,Gravis Marketing,,,Gravis Marketing,124,Gravis Marketing,C,600,rv,rv,IVR/Online,U.S. President,6/19/20,6/19/20,11/3/20,https://www.gravismarketing.com/wp-content/uploads/2020/06/Minnesota-June-19-2020.pdf,general,6234,Trump,Donald Trump,REP,42,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿state,abbv,candidate_name,candidate_party,pct
+Minnesota,MN,Joseph R. Biden Jr.,DEM,58
+Minnesota,MN,Donald Trump,REP,42

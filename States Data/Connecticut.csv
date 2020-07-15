@@ -1,5 +1,3 @@
-﻿question_id,poll_id,cycle,state,pollster_id,pollster,sponsor_ids,sponsors,display_name,pollster_rating_id,pollster_rating_name,fte_grade,sample_size,population,population_full,methodology,office_type,start_date,end_date,election_date,url,stage,race_id,answer,candidate_name,candidate_party,pct,,
-122949,66147,2020,Connecticut,396,Quinnipiac University,,,Quinnipiac University,267,Quinnipiac University,B+,945,rv,rv,Live Phone,U.S. President,4/30/20,5/4/20,11/3/20,https://poll.qu.edu/connecticut/release-detail?ReleaseID=3660,general,6217,Biden,Joseph R. Biden Jr.,DEM,56,,
-122949,66147,2020,Connecticut,396,Quinnipiac University,,,Quinnipiac University,267,Quinnipiac University,B+,945,rv,rv,Live Phone,U.S. President,4/30/20,5/4/20,11/3/20,https://poll.qu.edu/connecticut/release-detail?ReleaseID=3660,general,6217,Trump,Donald Trump,REP,33,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿state,abbv,candidate_name,candidate_party,pct
+Connecticut,CT,Joseph R. Biden Jr.,DEM,56
+Connecticut,CT,Donald Trump,REP,33
