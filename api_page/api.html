@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Web Development Project</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="us_map_js/style.css">
+    <link rel="stylesheet" href="api_style.css">
     <!--import leaflet stylesheet-->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
 </head>
-
 <body>
     <div class="container-fluid">
         <!--Normally these medium columns go full wide on small screen sizes-->
@@ -38,27 +37,27 @@
             </div>
         </nav>
         <p><br></p>
-        <div class="row ">
-            <div class="col-md-12 jumbtron text-center">
-                <h2 class="mt-0">Election Poll Status</h2>
-                <p><br></p>
 
-        <div id="map"></div>
-        
-        <!--leaflet-->
-        <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-        integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-        crossorigin=""></script>
+    <div class="content">
+        <h1>API Documentation:</h1>
+        <p class="intro">
+            The data provided by this site depicts the percentage of people voting Democrat
+            versus the percentage of people voting Republican. Raw data can be downloaded here. 
+        </p>
 
-        <!--d3 javascript-->
-        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <h3>Accessing the Data:</h3>
+        <p class="access">
+            Base Url: "https://election2020.com/api/download?<br>
+            Routes: "/{STATE_NAME}"
+        </p>
 
-        <!-- Leaflet-Choropleth JavaScript -->
-        <script type="text/javascript" src="us_map_js/choropleth.js"></script>
+        <h3>Example:</h3>
+        <p class="example">
+            API call: https://election2020.com/api/download?/california
+        </p>
+        <img src="link to screenshot of json page" alt="screenshot">
 
-        <!--visual.js (mine)-->  
-        <script type="text/javascript" src="us_map_js/us-states.js"></script>     
-        <script type="text/javascript" src="us_map_js/config.js"></script>
-        <script type="text/javascript" src="us_map_js/map.js"></script>
-    </body>
-</html>
+    </div>
+    
+</body>
+</html> 
