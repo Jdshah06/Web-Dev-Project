@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Web Development Project</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="api_style.css"> -->
-    <!--import leaflet stylesheet-->
+
+    <!-- <link rel="stylesheet" href="static/style.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- import leaflet stylesheet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin=""/>
 </head>
 
-<!-- style -->
-<style>
-    /* navbar settings */
-nav {
-    background-image: linear-gradient(to right, blue, red);
-    height: 150px;
-}
-#navbarNavDropdown {
-    color: ivory;
-}
-</style>
 
 <body>
     <div class="container-fluid">
@@ -50,25 +42,38 @@ nav {
             </div>
         </nav>
         <p><br></p>
+        <div class="row ">
+            <div class="col-md-12 jumbtron text-center">
+                <h2 class="mt-0">Election Poll Status</h2>
+                <p>Click a State</p>
+                <p><br></p>
+            </div>
 
-    <div class="content">
-        <h1>API Documentation:</h1>
-        <p><br></p>
-
-        <h3>{{ routes.title }}</h3>
-        <p><br></p>
-        <h6>{{ routes.poll_data }}</h6>
-        <p>{{ routes.poll_data_link }}</p>
-        <p><br></p>
-        <h6>{{ routes.state_name }}</h6>
-        <p>{{ routes.state_name_link }}</p>
-        <p><br></p>
-        <h6>{{ routes.state_abbv }}</h6>
-        <p>{{ routes.state_abbv_link }}</p>
-        
+        <div id="map"></div>
         
 
-    </div>
-    
-</body>
-</html> 
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--leaflet-->
+        <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+        integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+        crossorigin=""></script>
+        
+        <!--d3 javascript-->
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+
+        <!-- Leaflet-Choropleth JavaScript -->
+        <script type="text/javascript" src="static/choropleth.js"></script>
+
+        <!--visual.js (mine)-->  
+        <script type="text/javascript" src="static/us-states.js"></script>     
+        <script type="text/javascript" src="static/config.js"></script>
+        <script type="text/javascript" src="static/map.js"></script>
+
+        
+
+    </body>
+</html>
+
+
