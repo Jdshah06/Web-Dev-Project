@@ -51,7 +51,21 @@ function highlightFeature(e) {
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
         layer.bringToFront();
     }
-}
+
+    console.log(e)
+    
+    var link = $('<a href="#" class="speciallink">'+e.target.feature.properties.name+'</a>').click(function() {
+        alert("test");
+    })[0];
+    
+
+
+    layer.bindPopup(link);
+    this.openPopup();
+
+    
+};
+
 
 // mouseout
 function resetHighlight(e) {
@@ -74,3 +88,6 @@ L.geoJson(statesData, {
     style: style,
     onEachFeature: hover
 }).addTo(map);
+
+//add event handler onclick 
+
