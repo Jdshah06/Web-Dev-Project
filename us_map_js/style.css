@@ -17,12 +17,12 @@ nav {
 /* body,
   html  */
 
-{
+/* {
     height: 600px;
     width: 1000px;
     margin-top: 200px;
     margin-left: 200px;
-} */
+} */ */
 
 .leaflet-popup-content {
     text-align: center;
@@ -33,5 +33,20 @@ nav {
     width: 800px;
     margin-top: 30px;
     margin-left: 300px;
+}
+
+#fit {
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #ee8a65;
 }
 
