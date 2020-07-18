@@ -41,11 +41,10 @@
 
         <div class="row">
 
-
             <div class="col">
                 <div class="state-img">
                     <!-- <img src="{{ image_link }}" alt="state image"> -->
-                    <img src="/images/alabama.jpg" alt="state img">
+                    <img src="/Web-Dev-Project/images/alabama.jpg" alt="state img">
                 </div>
             </div>
 
@@ -56,8 +55,6 @@
             </div>
 
         </div>
-
-
 
         <div class="row">
             <div class="col-md-2">
@@ -75,15 +72,17 @@
                 </div>
             </div>
 
-            <div class="col-md-2">
-                <div class="graph">
-                    <img class="placeholder" src="https://www.ssc.wisc.edu/sscc/pubs/bargraphs/b1.png" alt="placeholder">
-                    <script src="" async defer></script>
-                </div>
+            <div class="col-md-5">
+                <div id="bar"></div>
             </div>
 
 
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="../static/app.js"></script>
+        <!-- <script src="./static/js/bonus.js"></script> -->
+        <script src="../static_state_page/samples.json"></script>
 
 </body>
 
