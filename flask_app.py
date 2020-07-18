@@ -38,6 +38,9 @@ def welcome():
         f"<br/>"
         f"Below route takes state abbrevation and list election 2020 poll for the state <br/>"
         f"/api/v1.0/stateabbrevation/<state_abbv><br/>"
+        f"<br/>"
+        f"Below route takes state abbrevation and list election 2020 poll for the state <br/>"
+        f"/api/v1.0/party/<party><br/>"
       
 
     )
@@ -73,6 +76,16 @@ def filter_data_abbv(state_abbv):
     session.close()
     
     return jsonify(results)
+
+@app.route("/api/v1.0/party/<party>")
+def filter_data_party(party):
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+    results= session.query(poll_data.name, poll_data.candidate_name,poll_data.candidate_party,poll_data.pct).filter(poll_data.candidate_party == party).all()
+    session.close()
+    
+    return jsonify(results)
+
 
 
 if __name__ == '__main__':
