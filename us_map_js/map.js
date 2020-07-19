@@ -11,58 +11,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 L.geoJson(statesData).addTo(map);
 
-
-// add color function: red = #8B0000, blue = #0000FF, hover = #D3D3D3
-
-// *TODO: fill data here 
-// var pctData = "REP.json"
-// var pctjson; 
-// var pct = [];
-
-// // grab data
-// // console.log(pctData);
-
-
-// console.log(pct)
-
-
-// function getColor() {
-//     d3.json(pctData).then(function(data){
-//         data.forEach(i => pct.push(i[3]))
-//         console.log(pct)
-//         for (var d = 0; d < pct.length; d++) {
-//             if (d >= 45) {
-//                 console.log("#8B0000")
-//                 return "#8B0000"
-//             } else if (d >= 40) {
-//                 console.log("#F5F5DC")
-//                 return "#F5F5DC"
-//             } else if (d < 40) {
-//                 console.log("#0000FF")
-//                 return "#0000FF"
-//             }
-//         }
-//     })
-// }
-
 function getColor(d){
     return d > 50 ? "#8B0000":
                     "#0000FF"
 }
-
-
-
-// function getColor(array) {
-//     for (var d = 0; d < pct.length; d++) {
-//         if (d > 50) {
-//             console.log("#8B0000")
-//         } else {
-//             console.log("#0000FF")
-//         }
-//     }
-// }
-
-// getColor(pct)
 
 function style(feature) {
     return {
@@ -99,6 +51,7 @@ function highlightFeature(e) {
 
     console.log(e)
     
+    // use JQuery to include Popup markers and link to data page
     var link = $('<a href="./static_state_page/project2_index.html" class="speciallink">'+e.target.feature.properties.name+'</a>').click()[0];
     
     layer.bindPopup(link);
@@ -132,4 +85,24 @@ L.geoJson(statesData, {
 
 console.log(statesData)
 
+// Legend var 
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [0, 50],
+        labels = [];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map);
 
