@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Web Development Project</title>
+    <title>Data Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="staticStyle.css">
     <!--import leaflet stylesheet-->
@@ -16,7 +16,7 @@
         <!--Normally these medium columns go full wide on small screen sizes-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <!-- <nav class="navbar navbar-expand-lg"> -->
-            <a class="navbar-brand mr-3" href="index.html">
+            <a class="navbar-brand mr-3" href="..//index.html">
                 <h1>Election Poll 2020</h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,13 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html"><span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="..//index.html"><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="strategy.html">Strategy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="api.html">Data</a>
+                        <a class="nav-link" href="../static_state_page/project2_index.html">Data</a>
                     </li>
                 </ul>
             </div>
@@ -41,50 +41,51 @@
 
         <div class="row">
 
-
-            <div class="col">
+            <div class="col-md-2">
                 <div class="state-img">
                     <!-- <img src="{{ image_link }}" alt="state image"> -->
-                    <img src="/images/alabama.jpg" alt="state img">
+                    <h5 id="img"></h5>
+                    <!-- <img id="link" src="../images/alabama.jpg" alt="state img"> -->
                 </div>
             </div>
 
             <div class="col-md-12 jumbtron text-center">
-                <!-- <h2 class="mt-0">{{ state }}</h2> -->
-                <h2 class="mt-0">Alabama</h2>
+                <h2 class="mt-0"></h2>
+                <h2 id="state_name"></h2>
                 <p><br></p>
             </div>
 
         </div>
 
-
-
         <div class="row">
             <div class="col-md-2">
                 <div class="well">
-                    <h5>States:</h5>
+                    <h4>States:</h4>
                     <select id="selDataset" onchange="optionChanged(this.value)"></select>
                 </div>
 
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">General Info</h3>
+                        <h4 class="panel-title">State Information</h4>
                     </div>
 
                     <div id="sample-metadata" class="panel-body"></div>
                 </div>
             </div>
 
-            <div class="col-md-2">
-                <div class="graph">
-                    <img class="placeholder" src="https://www.ssc.wisc.edu/sscc/pubs/bargraphs/b1.png" alt="placeholder">
-                    <script src="" async defer></script>
-                </div>
+            <div class="col-md-5">
+                <div id="bar"></div>
             </div>
-
-
         </div>
 
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="../static/app.js"></script>
+        <!-- <script src="./static/js/bonus.js"></script> -->
+        <script src="../static_state_page/samples.json"></script>
+    </div>
 </body>
 
 </html>
