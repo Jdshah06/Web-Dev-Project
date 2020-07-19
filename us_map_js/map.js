@@ -99,7 +99,7 @@ function highlightFeature(e) {
 
     console.log(e)
     
-    var link = $('<a href="../static_state_page/project2_index.html" class="speciallink">'+e.target.feature.properties.name+'</a>').click()[0];
+    var link = $('<a href="./static_state_page/project2_index.html" class="speciallink">'+e.target.feature.properties.name+'</a>').click()[0];
     
     layer.bindPopup(link);
     this.openPopup();
