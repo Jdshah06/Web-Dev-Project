@@ -15,7 +15,7 @@ function readdata(idname) {
 
     });
 }
-
+// this function reads all state names to built the list in pull down
 function dropdown() {
     var id_dropdown = d3.select("#selDataset");
     d3.json("../static_state_page/samples.json").then((data) => {
@@ -25,18 +25,14 @@ function dropdown() {
         })
     });
 }
-
+// this function is to get new id on change
 function optionChanged(newid) {
     readdata(newid);
     updatebarPlot(newid);
     updatestateName(newid);
 
-
-
-
-
 }
-
+// this function plots bar chart for present poll for each candidate
 function updatebarPlot(idname) {
     d3.json("../static_state_page/samples.json").then((data) => {
         var id_data = data.samples;
@@ -63,7 +59,7 @@ function updatebarPlot(idname) {
 
     });
 }
-
+// this function updates the state name
 function updatestateName(idname) {
     d3.json("../static_state_page/samples.json").then((data) => {
         var id_data = data.metadata;
@@ -72,16 +68,23 @@ function updatestateName(idname) {
         statename = filter_data.id;
         var metadata = d3.select("#state_name");
         metadata.html(statename);
-        drawListNode(d3.select("#img"));
+        var img = d3.select("#img");
+        img.html("");
 
-        function drawListNode(parent, text) {
+        // this function updates the map for the state
+        drawListNode(img);
+
+        function drawListNode(parent) {
             var node = parent.append("h5");
             var icon_src = "../images/" + statename + ".jpg";
             var m = node.append("img").attr("src", icon_src);
-            node.append("span").text(text);
+            node.append("span");
             console.log(m);
 
             return node;
+
+
+
         }
 
 
@@ -90,7 +93,7 @@ function updatestateName(idname) {
     });
 }
 
-
+// Call function to have default values
 
 updatestateName("Alabama");
 readdata("Alabama");

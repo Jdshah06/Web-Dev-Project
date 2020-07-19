@@ -1,9 +1,0 @@
-/* navbar settings */
-nav {
-    background-image: linear-gradient(to right, blue, red);
-    height: 150px;
-}
-
-#navbarNavDropdown {
-    color: ivory;
-}
