@@ -16,6 +16,7 @@ nav {
     /* background-color: magenta; */
     width: 20%;
     text-align: left;
+    margin-left: 350px;
     margin-right: 200px;
     position: absolute;
     top: -50px;
@@ -24,7 +25,7 @@ nav {
 
 /* title settings */
 
-.mt-0 {
+#state_name {
     /* background-color: mediumspringgreen; */
     width: 60%;
     position: fixed;
@@ -36,7 +37,7 @@ nav {
 /* states dropdown and general info bar */
 
 .well {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 
@@ -69,5 +70,5 @@ nav {
 #bar {
     position: fixed;
     margin-left: 300px;
-    margin-top: 150px;
+    margin-top: 100px;
 }

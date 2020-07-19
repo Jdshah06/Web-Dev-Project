@@ -33,6 +33,8 @@ function optionChanged(newid) {
 
 
 
+
+
 }
 
 function updatebarPlot(idname) {
@@ -68,17 +70,27 @@ function updatestateName(idname) {
         var filter_data = id_data.filter(x => x.id == idname);
         filter_data = filter_data[0];
         statename = filter_data.id;
-        console.log(statename);
         var metadata = d3.select("#state_name");
         metadata.html(statename);
-        var imglink = d3.select("#imgstate");
-        img = "../images/" + statename + ".jpg";
-        console.log(img);
-        imglink.html(img);
+        drawListNode(d3.select("#img"));
+
+        function drawListNode(parent, text) {
+            var node = parent.append("h5");
+            var icon_src = "../images/" + statename + ".jpg";
+            var m = node.append("img").attr("src", icon_src);
+            node.append("span").text(text);
+            console.log(m);
+
+            return node;
+        }
+
+
 
 
     });
 }
+
+
 
 updatestateName("Alabama");
 readdata("Alabama");
