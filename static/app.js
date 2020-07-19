@@ -67,10 +67,15 @@ function updatestateName(idname) {
         var id_data = data.metadata;
         var filter_data = id_data.filter(x => x.id == idname);
         filter_data = filter_data[0];
-        console.log(filter_data);
+        statename = filter_data.id;
+        console.log(statename);
         var metadata = d3.select("#state_name");
-        metadata.html("");
-        Object.entries(filter_data).metadata.property("value");
+        metadata.html(statename);
+        var imglink = d3.select("#imgstate");
+        img = "../images/" + statename + ".jpg";
+        console.log(img);
+        imglink.html(img);
+
 
     });
 }

@@ -44,13 +44,12 @@
             <div class="col">
                 <div class="state-img">
                     <!-- <img src="{{ image_link }}" alt="state image"> -->
-                    <img src="/Web-Dev-Project/images/alabama.jpg" alt="state img">
+                    <img id="imgstate" src="" alt="state img">
                 </div>
             </div>
 
             <div class="col-md-12 jumbtron text-center">
-                <h2 class="state">State Name</h2>
-                <h2 id="state_name"></h2>
+                <h1 id="state_name"></h1>
                 <p><br></p>
             </div>
 
@@ -59,13 +58,13 @@
         <div class="row">
             <div class="col-md-2">
                 <div class="well">
-                    <h5>States:</h5>
+                    <h4>States:</h4>
                     <select id="selDataset" onchange="optionChanged(this.value)"></select>
                 </div>
 
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">General State Info</h3>
+                        <h4 class="panel-title">State Information</h4>
                     </div>
 
                     <div id="sample-metadata" class="panel-body"></div>
