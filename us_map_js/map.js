@@ -11,9 +11,9 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 L.geoJson(statesData).addTo(map);
 
-function getColor(d){
-    return d > 50 ? "#8B0000":
-                    "#0000FF"
+function getColor(d) {
+    return d > 50 ? "#8B0000" :
+        "#0000FF"
 }
 
 function style(feature) {
@@ -24,11 +24,11 @@ function style(feature) {
         color: 'white',
         dashArray: '1',
         fillOpacity: 1
-        
+
     };
 }
 
-L.geoJson(statesData, {style: style}).addTo(map);
+L.geoJson(statesData, { style: style }).addTo(map);
 
 
 // INTERACTIVE ELEMENT
@@ -50,14 +50,14 @@ function highlightFeature(e) {
     }
 
     console.log(e)
-    
+
     // use JQuery to include Popup markers and link to data page
-    var link = $('<a href="./static_state_page/project2_index.html" class="speciallink">'+e.target.feature.properties.name+'</a>').click()[0];
-    
+    var link = $('<a href="./static_state_page/project2_index.html" class="speciallink">' + e.target.feature.properties.name + '</a>').click()[0];
+
     layer.bindPopup(link);
     this.openPopup();
 
-    
+
 };
 
 
@@ -68,10 +68,10 @@ function resetHighlight(e) {
 
 // make geoJSON layer accessible through variable by defining it and assigning layer to it
 var geojson;
-geojson = L.geoJson(statesData, {style: style});
+geojson = L.geoJson(statesData, { style: style });
 
 // create hover function that calls functions for mouseover and mouseout
-function hover (feature, layer) {
+function hover(feature, layer) {
     layer.on({
         mouseover: highlightFeature,
         mouseout: resetHighlight
@@ -86,9 +86,9 @@ L.geoJson(statesData, {
 console.log(statesData)
 
 // Legend var 
-var legend = L.control({position: 'bottomright'});
+var legend = L.control({ position: 'bottomright' });
 
-legend.onAdd = function (map) {
+legend.onAdd = function(map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0, 50],
@@ -98,11 +98,10 @@ legend.onAdd = function (map) {
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
             '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
-            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+            (grades[i + 1] ? 'DEM' + '<br>' : 'REP');
     }
 
     return div;
 };
 
 legend.addTo(map);
-
