@@ -1,5 +1,6 @@
     // Fetch the JSON data and console log it
 
+
     function readdata(idname) {
         d3.json("../static_state_page/samples.json").then((data) => {
             var id_data = data.metadata;
@@ -91,7 +92,7 @@
     readdata("Alabama");
     dropdown();
     updatebarPlot("Alabama");
-    // updatestateName(statename);
-    // readdata(statename);
+    // updatestateName(state);
+    // readdata(state);
     // dropdown();
-    // updatebarPlot(statename);
+    // updatebarPlot(state);

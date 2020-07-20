@@ -36,6 +36,7 @@ L.geoJson(statesData, { style: style }).addTo(map);
 // mouseover
 function highlightFeature(e) {
     var layer = e.target;
+    var state = e.target.feature.properties.name
 
     layer.setStyle({
         fillColor: '#D3D3D3',
@@ -49,7 +50,7 @@ function highlightFeature(e) {
         layer.bringToFront();
     }
 
-    console.log(e)
+    console.log(state)
 
     // use JQuery to include Popup markers and link to data page
     var link = $('<a href="./static_state_page/project2_index.html" class="speciallink">' + e.target.feature.properties.name + '</a>').click()[0];
