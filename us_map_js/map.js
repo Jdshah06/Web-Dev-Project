@@ -13,7 +13,9 @@ L.geoJson(statesData).addTo(map);
 
 function getColor(d) {
     return d > 50 ? "#8B0000" :
-        "#0000FF"
+           d > 45 ? "#DEB887":
+           d > 0 ? "#0000FF":
+                    "#DEB887"
 }
 
 function style(feature) {
@@ -86,7 +88,7 @@ L.geoJson(statesData, {
 
 console.log(statesData)
 
-// Legend var 
+// Legend 
 var legend = L.control({ position: 'bottomright' });
 
 legend.onAdd = function(map) {
