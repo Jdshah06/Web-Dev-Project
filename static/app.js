@@ -77,7 +77,7 @@
 
             function drawListNode(parent) {
                 var node = parent.append("h5");
-                var icon_src = "../images/" + statename + ".jpg";
+                var icon_src = "..//images/" + statename + ".jpg";
                 var m = node.append("img").attr("src", icon_src);
                 node.append("span");
                 console.log(m);
