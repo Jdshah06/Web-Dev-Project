@@ -12,7 +12,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 L.geoJson(statesData).addTo(map);
 
 function getColor(d) {
-    return d > 50 ? "#8B0000" :
+    return d >= 50 ? "#8B0000" :
         "#0000FF"
 }
 
